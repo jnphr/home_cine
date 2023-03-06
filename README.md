@@ -9,7 +9,7 @@ The lean program allows a user to:
 
 ## Installation
 
-You may set the directory path and run the python file as usual.
+You can set the directory path and run the python file as usual.
 
 ```bash
 python home_cinema.py
