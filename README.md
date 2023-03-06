@@ -12,7 +12,7 @@ The lean program allows a user to:
 You can set the directory path and run the python file as usual.
 
 ```bash
-python home_cine.py
+python home_cinema.py
 ```
 
 
