@@ -102,6 +102,8 @@ def browse():
         print("Browse new releases\n")
         cursor.execute('''SELECT * FROM movies ORDER BY Year DESC LIMIT 10''')
         entry = cursor.fetchall()
+    else:
+        print("Error\n")
     if entry and browse_by != 2:
         select(entry)
     elif entry and browse_by == 2:
